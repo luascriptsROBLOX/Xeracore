@@ -1,0 +1,246 @@
+ local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/notiflib/main/main"))()
+ 
+ AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+
+
+
+local Notify = AkaliNotif.Notify;
+
+
+wait(1);
+
+Notify({
+Description = "Pls Wait 10 sec Xera Ultron Is loading";
+Title = "xera-";
+Duration = 10;
+});
+
+wait(10);
+
+Notify({
+Description = "CHECKING for updates and Security patches";
+Title = "xera-";
+Duration = 10;
+});
+
+wait(10);
+
+Notify({
+Description = "Your Good To go version up to date andSecurity Patches Done :)";
+Title = "XERA V4.1 !";
+Duration = 8;
+});
+
+wait(5);
+
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
+
+local Window = redzlib:MakeWindow({
+  Title = "XERA ULTRON : V4.1 [ GEN 2 EVO ]",
+  SubTitle = "by @luascr787 on youtube",
+  SaveFolder = "XERA ULTRON TEAM"
+})
+local Tab1 = Window:MakeTab({"MAIN", "percent"})
+
+local Tab2 = Window:MakeTab({"other", "codesandbox"})
+
+local Tab3 = Window:MakeTab({"CREDITS", "user"})
+
+local Tab4 = Window:MakeTab({"UPDATE LOGS", "rss"})
+
+Tab1:AddButton({"Load Wizard", function()
+  local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "XERA", Description = "WIZARD LOADED UR SAFE FROM BAN! :)"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+
+wait(1)
+
+Notification:Notify(
+    {Title = "Xera", Description = "Ready To Bypass Byfron :) !!"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "default"}
+)
+end})
+
+Tab1:AddButton({"BYPASS ANTICHEAT PC/MOBILE", function()
+  local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+
+wait(1);
+
+Notify({
+Description = "loading XERA BYFRON BYPASS ";
+Duration = 10;
+});
+
+wait(10);
+
+Notify({
+Description = "Byfron Disabling Temprorly";
+Duration = 10;
+});
+
+wait(10);
+
+Notify({
+Description = "Byfron Module Loading By xera .......";
+Duration = 10;
+});
+
+wait(1);
+
+loadstring(game:HttpGet("https://pastebin.com/raw/gsxvWvnj"))()
+
+wait(7);
+
+Notify({
+Description = "Byfron bypassed and loaded anti kick good to go!! :)";
+Duration = 30;
+});
+end})
+
+Tab1:AddButton({"The Strongest Battlegrounds", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.md'),true))()
+end})
+
+Tab1:AddButton({"Rtx FULL GRAPHICS NO LAGG", function()
+getgenv().RTX_Name = "XERA RTX 👑" 
+loadstring(game:HttpGet(('https://pastefy.app/xXkUxA0P/raw'),true))()
+notif:Notification("XERA ULTRON-","RTX LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab1:AddButton({"blox fruits", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CheemsNhuChiAl/Sotringhuhu/main/StrawberryHubBeta1.35"))()
+notif:Notification("XERA ULTRON-","BLOX FRUIT SCRIPT LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab1:AddButton({"soccer battle Grounds", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dk4Q/Dk4QHub/master/Loader.lua", true))()
+notif:Notification("XERA ULTRON-","SOCCER BATTLE GROUNDS SCRIPT LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab1:AddButton({"RED Z HUB!!", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+notif:Notification("XERA ULTRON-","REDZ HUB LOADED :)","GothamSemibold","Gotham",5)
+notif:Notification("XERA ULTRON-","only works for specific games like brookhaven or blox fruit","GothamSemibold","Gotham",10)
+end})
+
+Tab1:AddButton({"Prison Life ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))()
+notif:Notification("XERA ULTRON-","PRISON WARE LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab1:AddButton({"BLADE BALL OP", function()
+notif:Notification("XERA ULTRON-","CHECKING FOR UPDATES","GothamSemibold","Gotham",10)
+
+wait(9);
+
+notif:Notification("XERA ULTRON-","NO UPDAYES PENDING GOOD TO GO","GothamSemibold","Gotham",5)
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyke785/UltronBlade-Ball/main/PRIVATEOBFBLADE"))()
+end})
+
+Tab1:AddButton({"MIMIC free version", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/NCaKSm3N"))()
+end})
+
+Tab1:AddButton({"JAIL BREAK", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
+notif:Notification("XERA ULTRON-","jail break script LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab2:AddButton({"XERA FLY GUI", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyke785/XeraFlyUnof/main/obfuscated"))()
+notif:Notification("XERA ULTRON-","XERA fly GUI LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab2:AddButton({"INFINITY YIELD", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end})
+
+Tab2:AddButton({"MOBILE KEY BOARD", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end})
+
+Tab1:AddButton({"XERA ADMIN", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/xNCksePL'))()
+end})
+
+Tab1:AddButton({"SOL rng script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+notif:Notification("XERA ULTRON-","sol rng script LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab1:AddButton({"Haze peice", function()
+--[[ Haze Peice Script Mobile , pc ]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Fazium-files/main/Loader"))()
+notif:Notification("XERA ULTRON-","haze peice script LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab1:AddButton({"Mm2 Script", function()
+loadstring(game:HttpGet("https://soggyhubv2.vercel.app"))()
+notif:Notification("XERA ULTRON-","mm2 script  LOADED :)","GothamSemibold","Gotham",5)
+end})
+
+Tab2:AddSlider({
+  Name = "Speed",
+  Min = 1,
+  Max = 100,
+  Increase = 1,
+  Default = 16,
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+  end
+})
+
+Tab2:AddSlider({
+  Name = "JumpPower",
+  Min = 1,
+  Max = 100,
+  Increase = 1,
+  Default = 50,
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+  end
+})
+
+Tab2:AddButton({"HEADLESS × KORBLOX FREE FE", function()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
+
+
+Notification.new("success", "XERA ULTRON-", "Korblox And Head less is loading.....")
+
+wait(7);
+
+loadstring(game:HttpGet('https://pastebin.com/raw/H5yx10Jq'))()
+
+Notification.new("info", "XERA ULTRON-", "Korblox And headless is activated you may Active the korbloxand headless")
+
+Notification.new("info", "XERA ULTRON-", "By xera team :)")
+
+end})
+
+local Paragraph = Tab3:AddParagraph({"UI DEVLOPER", "luascripts787 on discord and @luascr787 on youtube"})
+
+local Paragraph = Tab3:AddParagraph({"Beta tester", "@eshaanopn on youtube"})
+
+local Paragraph = Tab3:AddParagraph({"Co Beta tester", "emraldgear0001 on discord"})
+
+Tab3:AddDiscordInvite({
+  Name = "XERA ULTRON TEAM",
+  Logo = "rbxassetid://17171289785",
+  Invite = "https://discord.gg/t7Azc46PWy"
+})
+
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.1", "ADDED UPDATE LOGS AKA UPD LOGS"})
+
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.1", "ADDED NEW KORBLOX AND HEADLESS FEATURE"})
+
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.1", "New key system"})
