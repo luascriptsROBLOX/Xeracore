@@ -36,7 +36,7 @@ wait(5);
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
 
 local Window = redzlib:MakeWindow({
-  Title = "XERA ULTRON : V4.1 [ GEN 2 EVO ]",
+  Title = "XERA ULTRON : V4.2 [ GEN 2 ]",
   SubTitle = "by @luascr787 on youtube",
   SaveFolder = "XERA ULTRON TEAM"
 })
@@ -239,7 +239,7 @@ Tab3:AddDiscordInvite({
   Invite = "https://discord.gg/t7Azc46PWy"
 })
 
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "FIXED "})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "FIXED BUGS "})
 
 local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "UPDATED TO 4.2 "})
 
