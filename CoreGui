@@ -27,7 +27,7 @@ wait(10);
 
 Notify({
 Description = "Your Good To go version up to date andSecurity Patches Done :)";
-Title = "XERA V4.1 !";
+Title = "XERA V4.2 !";
 Duration = 8;
 });
 
@@ -239,8 +239,8 @@ Tab3:AddDiscordInvite({
   Invite = "https://discord.gg/t7Azc46PWy"
 })
 
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.1", "ADDED UPDATE LOGS AKA UPD LOGS"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "FIXED "})
 
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.1", "ADDED NEW KORBLOX AND HEADLESS FEATURE"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "UPDATED TO 4.2 "})
 
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.1", "New key system"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "BANNED ESHAANOPN FROM PROJECT"})
