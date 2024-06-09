@@ -213,7 +213,7 @@ Tab2:AddSlider({
 
 Tab2:AddTextBox({
   Name = "Custom Speed",
-  Description = "Change spped In numbers",
+  Description = "Change SPEED",
   Default = "16",
   Callback = function(Value)
   game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value  
