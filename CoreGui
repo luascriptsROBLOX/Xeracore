@@ -211,6 +211,15 @@ Tab2:AddSlider({
   end
 })
 
+Tab2:AddTextBox({
+  Name = "Custom Speed",
+  Description = "Change spped In numbers",
+  Default = "16",
+  Callback = function(Value)
+  game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value  
+  end
+})
+
 Tab2:AddButton({"HEADLESS × KORBLOX FREE FE", function()
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jxereas/UI-Libraries/main/notification_gui_library.lua", true))()
 
