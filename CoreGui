@@ -1,3 +1,31 @@
+-- List of banned user IDs
+local bannedUserIds = {
+    596537637,
+    4814064550, -- Replace with actual user IDs
+}
+
+-- Function to check if a user is banned
+local function isUserBanned(userId)
+    for _, bannedUserId in ipairs(bannedUserIds) do
+        if bannedUserId == userId then
+            return true
+        end
+    end
+    return false
+end
+
+-- Get the current player's user ID
+local player = game.Players.LocalPlayer
+local userId = player.UserId
+
+-- Check if the user is banned
+if isUserBanned(userId) then
+    player:Kick("You are banned from using this script. good job to get fucked 🍑🍆")
+    return  -- Stop further execution of the script
+end
+
+wait(4)
+
 local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/notiflib/main/main"))()
 
 local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))()
