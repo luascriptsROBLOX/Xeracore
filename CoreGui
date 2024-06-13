@@ -1,28 +1,37 @@
--- List of banned user IDs
-local bannedUserIds = {
-    596537637,
-     -- Replace with actual user IDs
+-- List of banned hardware IDs
+local bannedHardwareIds = {
+    "",
+    -- Replace with actual hardware IDs
 }
 
--- Function to check if a user is banned
-local function isUserBanned(userId)
-    for _, bannedUserId in ipairs(bannedUserIds) do
-        if bannedUserId == userId then
+-- Function to get the hardware ID of the current player
+local function getHardwareId()
+    -- This is a simulated function. In practice, you would need a method to securely retrieve the hardware ID.
+    -- Roblox does not provide a direct way to get the hardware ID due to privacy and security reasons.
+    -- You might consider using a combination of other identifiers to approximate this.
+    return "SIMULATED_HARDWARE_ID"
+end
+
+-- Function to check if a hardware ID is banned
+local function isHardwareIdBanned(hardwareId)
+    for _, bannedHardwareId in ipairs(bannedHardwareIds) do
+        if bannedHardwareId == hardwareId then
             return true
         end
     end
     return false
 end
 
--- Get the current player's user ID
-local player = game.Players.LocalPlayer
-local userId = player.UserId
+-- Get the current player's hardware ID
+local hardwareId = getHardwareId()
 
--- Check if the user is banned
-if isUserBanned(userId) then
-    player:Kick("You are banned from using this script. good job to get fucked 🍑🍆")
+-- Check if the hardware ID is banned
+if isHardwareIdBanned(hardwareId) then
+    game.Players.LocalPlayer:Kick("You are banned from using this script. good job to get fucked 🍑🍆")
     return  -- Stop further execution of the script
 end
+
+-- Continue with the rest of the script
 
 wait(4)
 
