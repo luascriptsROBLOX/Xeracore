@@ -1,7 +1,7 @@
 -- List of banned user IDs
 local bannedUserIds = {
     596537637,
-    4814064550, -- Replace with actual user IDs
+     -- Replace with actual user IDs
 }
 
 -- Function to check if a user is banned
