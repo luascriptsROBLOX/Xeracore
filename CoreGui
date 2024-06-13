@@ -1,6 +1,6 @@
 -- List of banned hardware IDs
 local bannedHardwareIds = {
-    "",
+    "0c1ee379-4d40-4375-be0e-067801bb54a6",
     -- Replace with actual hardware IDs
 }
 
