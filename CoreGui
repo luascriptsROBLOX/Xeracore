@@ -1,16 +1,8 @@
 -- List of banned hardware IDs
 local bannedHardwareIds = {
-    "0c1ee379-4d40-4375-be0e-067801bb54a6",
-    -- Replace with actual hardware IDs
+    "",
+    -- Add more banned hardware IDs here
 }
-
--- Function to get the hardware ID of the current player
-local function getHardwareId()
-    -- This is a simulated function. In practice, you would need a method to securely retrieve the hardware ID.
-    -- Roblox does not provide a direct way to get the hardware ID due to privacy and security reasons.
-    -- You might consider using a combination of other identifiers to approximate this.
-    return "SIMULATED_HARDWARE_ID"
-end
 
 -- Function to check if a hardware ID is banned
 local function isHardwareIdBanned(hardwareId)
@@ -22,16 +14,17 @@ local function isHardwareIdBanned(hardwareId)
     return false
 end
 
--- Get the current player's hardware ID
-local hardwareId = getHardwareId()
+-- Example usage: hardwareId to check
+-- In a real scenario, you would dynamically get this hardwareId
+local hardwareId = "" -- Replace with the actual hardware ID you want to check
 
 -- Check if the hardware ID is banned
-if isHardwareIdBanned(hardwareId) then
-    game.Players.LocalPlayer:Kick("You are banned from using this script. good job to get fucked 🍑🍆")
+if isHardwareIdBanned then
+    game.Players.LocalPlayer:Kick("You Cant Use This Script , Ban SecurityDetect 2.0 - Your banned You ur not able to use this script ")
     return  -- Stop further execution of the script
 end
 
--- Continue with the rest of the script
+-- Continue with the rest of the script if not banned
 
 wait(4)
 
