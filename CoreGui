@@ -1,30 +1,37 @@
--- List of banned hardware IDs
-local bannedHardwareIds = {
-    "nil",
-    -- Add more banned hardware IDs here
+-- List of banned user IDs
+local bannedUserIds = {
+    12345678,  -- Replace with actual user IDs
+    87654321,
+    -- Add more banned user IDs here
 }
 
--- Function to check if a hardware ID is banned
-local function isHardwareIdBanned(hardwareId)
-    for _, bannedHardwareId in ipairs(bannedHardwareIds) do
-        if bannedHardwareId == hardwareId then
+-- Function to check if a user ID is banned
+local function isUserBanned(userId)
+    for _, bannedUserId in ipairs(bannedUserIds) do
+        if bannedUserId == userId then
             return true
         end
     end
     return false
 end
 
--- Example usage: hardwareId to check
--- In a real scenario, you would dynamically get this hardwareId
-local hardwareId = "nil" -- Replace with the actual hardware ID you want to check
-
--- Check if the hardware ID is banned
-if isHardwareIdBanned then
-    game.Players.LocalPlayer:Kick("You Cant Use This Script , Ban SecurityDetect 2.0 - Your banned You ur not able to use this script ")
-    return  -- Stop further execution of the script
+-- Function to handle player join
+local function onPlayerAdded(player)
+    local userId = player.UserId
+    
+    -- Check if the user ID is banned
+    if isUserBanned(userId) then
+        player:Kick("XERASafety- Your Not Allowed To use This script [ Your Banned ] code-x10")
+    end
 end
 
--- Continue with the rest of the script if not banned
+-- Connect the player added event
+game.Players.PlayerAdded:Connect(onPlayerAdded)
+
+-- Check already connected players (for cases where the script runs after players have joined)
+for _, player in ipairs(game.Players:GetPlayers()) do
+    onPlayerAdded(player)
+end
 
 wait(4)
 
