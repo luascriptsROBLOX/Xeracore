@@ -61,7 +61,7 @@ wait(10)
 
 Notify({
     Description = "Your Good To go version up to date andSecurity Patches Done :)",
-    Title = "XERA V4.2 !",
+    Title = "XERA V4.4 !",
     Duration = 8,
 })
 
@@ -70,7 +70,7 @@ wait(5)
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
 
 local Window = redzlib:MakeWindow({
-    Title = "XERA ULTRON : V4.2 [ GEN 2 ]",
+    Title = "XERA ULTRON : V4.4 [ GEN 2 ]",
     SubTitle = "by @luascr787 on youtube",
     SaveFolder = "XERA ULTRON TEAM"
 })
