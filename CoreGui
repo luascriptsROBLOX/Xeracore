@@ -261,8 +261,8 @@ Tab2:AddButton({"HEADLESS × KORBLOX FREE FE", function()
 end})
 
 local Paragraph = Tab3:AddParagraph({"UI DEVELOPER", "luascripts787 on discord and @luascr787 on youtube"})
-local Paragraph = Tab3:AddParagraph({"Beta tester", "@eshaanopn on youtube"})
 local Paragraph = Tab3:AddParagraph({"Co Beta tester", "emraldgear0001 on discord"})
+local Paragraph = Tab3:AddParagraph({"Api Providers", "DarkRaiTeam key system , DELTA TEAM api for gui"})
 
 Tab3:AddDiscordInvite({
     Name = "XERA ULTRON TEAM",
@@ -270,6 +270,7 @@ Tab3:AddDiscordInvite({
     Invite = "https://discord.gg/t7Azc46PWy"
 })
 
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "FIXED BUGS"})
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "UPDATED TO 4.2"})
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.2", "BANNED ESHAANOPN FROM PROJECT"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.4", "FIXED BUGS"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.4", "UPDATED TO 4.4"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.4", "Api Updated , nothing more"})
+
