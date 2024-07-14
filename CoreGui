@@ -61,7 +61,7 @@ wait(10)
 
 Notify({
     Description = "Your Good To go version up to date andSecurity Patches Done :)",
-    Title = "XERA V4.4 !",
+    Title = "XERA V4.5 !",
     Duration = 8,
 })
 
@@ -70,7 +70,7 @@ wait(5)
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
 
 local Window = redzlib:MakeWindow({
-    Title = "XERA ULTRON : V4.4 [ GEN 2 ]",
+    Title = "XERA ULTRON : V4.5 [ GEN 2 ]",
     SubTitle = "by @luascr787 on youtube",
     SaveFolder = "XERA ULTRON TEAM"
 })
@@ -270,7 +270,7 @@ Tab3:AddDiscordInvite({
     Invite = "https://discord.gg/t7Azc46PWy"
 })
 
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.4", "FIXED BUGS"})
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.4", "UPDATED TO 4.4"})
-local Paragraph = Tab4:AddParagraph({"UPDATE 4.4", "Api Updated , nothing more"})
-
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.5", "FIXED BUGS"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.5", "UPDATED TO 4.4"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.5", "Api Updated , nothing more"})
+local Paragraph = Tab4:AddParagraph({"UPDATE 4.5", "Key update , key was not update since 3 week"})
